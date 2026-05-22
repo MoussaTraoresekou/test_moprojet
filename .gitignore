@@ -15,12 +15,13 @@
 # JVM crash logs
 hs_err_pid*
 
-# Eclipse
-.classpath
-.project
-.settings/
-
 # Build folders
 bin/
 build/
 target/
+
+# Eclipse — source de conflits
+.settings/
+.classpath
+
+# On garde .project → pas de conflit
